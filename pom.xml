@@ -26,7 +26,7 @@
 
 
   <dependencies>
-
+        <!--Jedis是Redis官方推荐的Java连接开发工具。要在Java开发中使用好Redis中间件，必须对Jedis熟悉才能写成漂亮的代码-->
       <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
       <dependency>
           <groupId>redis.clients</groupId>
@@ -103,6 +103,7 @@
           <version>1.6.11</version>
       </dependency>
 
+      <!--序列化-->
       <dependency>
           <groupId>org.codehaus.jackson</groupId>
           <artifactId>jackson-mapper-asl</artifactId>
@@ -136,6 +137,7 @@
           <version>5.1.6</version>
       </dependency>
 
+      <!--工具类-->
       <dependency>
           <groupId>com.google.guava</groupId>
           <artifactId>guava</artifactId>
@@ -158,7 +160,7 @@
 
 
 
-
+      <!--时间处理-->
       <dependency>
           <groupId>joda-time</groupId>
           <artifactId>joda-time</artifactId>
@@ -196,7 +198,7 @@
           <version>2.0.1</version>
       </dependency>
 
-      <!--mybatis generator-->
+      <!--mybatis generator  生成dao层接口 -->
       <!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
       <dependency>
           <groupId>org.mybatis.generator</groupId>
@@ -213,7 +215,7 @@
 
 
 
-      <!-- mybatis pager 分页插件   生成dao层接口 -->
+      <!-- mybatis pager 分页插件  -->
 
       <dependency>
           <groupId>com.github.pagehelper</groupId>
