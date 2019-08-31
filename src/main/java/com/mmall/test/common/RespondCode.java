@@ -21,6 +21,6 @@ public enum  RespondCode {
     RespondCode(int code,String msg) {
         this.code = code;
         this.msg = msg;
-
     }
+
 }

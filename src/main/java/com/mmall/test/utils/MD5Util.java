@@ -44,6 +44,8 @@ public class MD5Util {
     }
 
     public static String MD5EncodingUTF8(String password){
+
+       // todo  password = password
         return MD5Encoding(password,"utf-8");
     }
 
